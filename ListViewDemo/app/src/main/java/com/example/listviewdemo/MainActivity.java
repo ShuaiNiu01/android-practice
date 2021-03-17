@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         myFamily.add("Sarah");
         myFamily.add("John");
         myFamily.add("Fido");
+        myFamily.add("Neil");
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, myFamily);
 
