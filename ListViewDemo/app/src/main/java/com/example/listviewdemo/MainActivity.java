@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Log.i("Person selected", myFamily.get(position));
+                Log.i("Person selected", myFamily.get(position));
             }
         });
     }
