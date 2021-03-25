@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        new CountDownTimer(10000, 1000) {
+        new CountDownTimer(20000, 1000) {
 
             public void onTick(long millisecondsUnitlDone) {
                 Log.i("seconds left", String.valueOf(millisecondsUnitlDone / 1000));
