@@ -27,6 +27,16 @@ public class MainActivity extends AppCompatActivity {
         myFamily.add("John");
         myFamily.add("Fido");
         myFamily.add("Neil");
+        myFamily.add("Nick");
+        myFamily.add("Sarah");
+        myFamily.add("John");
+        myFamily.add("Fido");
+        myFamily.add("Neil");
+        myFamily.add("Nick");
+        myFamily.add("Sarah");
+        myFamily.add("John");
+        myFamily.add("Fido");
+        myFamily.add("Neil");
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, myFamily);
 
@@ -35,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
         myListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Log.i("Person selected", myFamily.get(position));
                 Log.i("Person selected", myFamily.get(position));
             }
         });
